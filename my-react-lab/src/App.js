@@ -1,9 +1,15 @@
 import './App.css';
-import greeting from './Components/greeting'
+import Content from './Components/content';
+import Greeting from './Components/greeting';
+import Header from './Components/header';
+import Footer from './Components/footer';
 function App() {
   return (
     <div className="App">
-    <Greeting/>
+      <Greeting/>
+      <Header/>
+      <Content/>
+      <Footer/>
     </div>
   );
 }
