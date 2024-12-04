@@ -1,0 +1,87 @@
+.usercard2 {
+    border: 1px solid #ddb992; 
+    border-radius: 10px;      
+    box-shadow: 0 4px 8px #ddb992; 
+    width: 350px;             
+    margin: 20px;           
+    padding: 20px;            
+    text-align: center;      
+    display: flex;           
+    flex-direction: column;   
+    align-items: center;  
+    background-color: #EACFB2;   
+}
+.container {
+    display: flex;          
+    justify-content: flex-start;
+    align-items: flex-start;  
+    width:310px;              
+    padding-left: 20px;       
+}
+.imageofuser2 {
+    width: 120px;             
+    height: 120px;            
+    object-fit: cover;        
+    border-radius: 50%;       
+    margin-bottom: 15px;      
+    border: 3px solid #bc9d7c;   
+}
+.user2name, .user2email, .user2role {
+    margin: 10px 0;          
+    font-size: 16px;         
+    color: #492e12;   
+}           
+.user2name {
+    font-weight: bold;       
+    font-size: 18px;         
+}
+.user2email a {
+    color: #492e12;         
+    text-decoration: none;   
+}
+.user2email a:hover {
+    text-decoration: underline;
+}
+.usercard1 {
+    background-color: #EACFB2;
+    border: 1px solid #ddb992;
+    border-radius: 10px;     
+    box-shadow: 0 4px 8px #ddb992;
+    width: 350px;          
+    margin: 20px;             
+    padding: 20px;            
+    text-align: center;       
+    display: flex;           
+    flex-direction: column;   
+    align-items: center;     
+}
+.container1 {
+    display: flex;           
+    justify-content: flex-start;
+    align-items: flex-start;   
+    padding-left: 20px;     
+}
+.imageofuser1 {
+    width: 120px;             
+    height: 120px;            
+    object-fit: cover;        
+    border-radius: 50%;       
+    margin-bottom: 15px;      
+    border: 3px solid #bc9d7c;   
+}
+.user1name, .user1email, .user1role {
+    margin: 10px 0;        
+    font-size: 16px;          
+    color: #492e12;              
+}
+.user1name {
+    font-weight: bold;        
+    font-size: 18px;         
+}
+.user1email a {
+    color: #492e12;  
+    text-decoration: none; 
+}
+.user1email a:hover {
+    text-decoration: underline; 
+}
